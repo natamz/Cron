@@ -1,0 +1,39 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.1.32407.343
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Cron", "src\Cron\Cron.csproj", "{482E5748-AA14-4A6C-B30E-39D1C124CD45}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{134EB18F-CB43-4326-8D1E-CBC8F55C67B0}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{A1D43341-9CDF-4857-9022-A5AA88052092}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cron.Tests", "tests\Cron.Tests\Cron.Tests.csproj", "{9F2AC693-E4E6-4CE4-9322-1F61E0582123}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{482E5748-AA14-4A6C-B30E-39D1C124CD45}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{482E5748-AA14-4A6C-B30E-39D1C124CD45}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{482E5748-AA14-4A6C-B30E-39D1C124CD45}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{482E5748-AA14-4A6C-B30E-39D1C124CD45}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9F2AC693-E4E6-4CE4-9322-1F61E0582123}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9F2AC693-E4E6-4CE4-9322-1F61E0582123}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9F2AC693-E4E6-4CE4-9322-1F61E0582123}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9F2AC693-E4E6-4CE4-9322-1F61E0582123}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{482E5748-AA14-4A6C-B30E-39D1C124CD45} = {134EB18F-CB43-4326-8D1E-CBC8F55C67B0}
+		{9F2AC693-E4E6-4CE4-9322-1F61E0582123} = {A1D43341-9CDF-4857-9022-A5AA88052092}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {04D1E64B-29D3-4E91-B60E-BEEAB2C14F4C}
+	EndGlobalSection
+EndGlobal
